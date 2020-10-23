@@ -35,5 +35,13 @@ node_modules
 # typescript
 lib
 tsconfig.tsbuildinfo
-.yarn
+
+# yarn 2.0
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Nix
 result
